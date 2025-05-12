@@ -1,13 +1,14 @@
 
 
-🚀 NLP Model Fine-Tuning, Text Classification, and Text Generation
+### 🚀 NLP Model Fine-Tuning, Text Classification, and Text Generation
+
 This repository demonstrates multiple Natural Language Processing (NLP) tasks using Hugging Face Transformers. It includes:
 - Fine-Tuning a sentiment analysis model (siebert/sentiment-roberta-large-English).
 - Text Classification using (facebook/bart-large-mnli, nlptown/bert-base-multilingual-uncased-sentiment, cardiffnlp/twitter-roberta-base-sentiment).
 - Text Generation using (facebook/bart-large-cnn).
 Each task has been implemented using Google Colab, and the respective notebook links are included.
 
-🛠️ 1. Fine-Tuning Sentiment RoBERTa Large (English)
+## 🛠️ 1. Fine-Tuning Sentiment RoBERTa Large (English)
 Model Used:
 - siebert/sentiment-roberta-large-English – A RoBERTa-based sentiment analysis model.
 Dataset:
@@ -28,7 +29,7 @@ Fine-Tuning Process:
 - Generated accuracy and loss metrics for evaluation.
 🔗 Colab Notebook: https://colab.research.google.com/drive/11cZyqShYyryehUhWXbkjvNYU7MaTxWR4?usp=drive_link
 
-🏷️ 2. Text Classification
+## 🏷️ 2. Text Classification
 Models Used:
 - facebook/bart-large-mnli – Zero-shot classification based on natural language inference.
 - nlptown/bert-base-multilingual-uncased-sentiment – Multilingual sentiment analysis.
@@ -51,7 +52,7 @@ print(result)
 
 🔗 Colab Notebook: https://colab.research.google.com/drive/1erBBnPC3G1oErvunXLuB6bzMU3Ra9RGT?usp=drive_link
 
-✍️ 3. Text Generation
+## ✍️ 3. Text Generation
 Model Used:
 - facebook/bart-large-cnn – Used for summarization.
 Implementation Steps:
@@ -71,13 +72,13 @@ print(summary)
 
 🔗 Colab Notebook: https://colab.research.google.com/drive/1erBBnPC3G1oErvunXLuB6bzMU3Ra9RGT?usp=drive_link
 
-🔧 Dependencies
+# 🔧 Dependencies
 Before running the notebooks, install the necessary dependencies:
 pip install transformers datasets torch hugging face
 
 
 
-📌 Credits
+# 📌 Credits
 - Base Models:
 - siebert/sentiment-roberta-large-English
 - facebook/bart-large-mnli
