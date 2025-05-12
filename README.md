@@ -1,6 +1,6 @@
 
 
-### 🚀 NLP Model Fine-Tuning, Text Classification, and Text Generation
+# 🚀 NLP Model Fine-Tuning, Text Classification, and Text Generation
 
 This repository demonstrates multiple Natural Language Processing (NLP) tasks using Hugging Face Transformers. It includes:
 - Fine-Tuning a sentiment analysis model (siebert/sentiment-roberta-large-English).
@@ -72,13 +72,13 @@ print(summary)
 
 🔗 Colab Notebook: https://colab.research.google.com/drive/1erBBnPC3G1oErvunXLuB6bzMU3Ra9RGT?usp=drive_link
 
-# 🔧 Dependencies
+### 🔧 Dependencies
 Before running the notebooks, install the necessary dependencies:
 pip install transformers datasets torch hugging face
 
 
 
-# 📌 Credits
+### 📌 Credits
 - Base Models:
 - siebert/sentiment-roberta-large-English
 - facebook/bart-large-mnli
