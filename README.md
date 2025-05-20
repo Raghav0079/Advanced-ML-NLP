@@ -20,7 +20,7 @@ Fine-Tuning Process:
 - Tokenization of the dataset using the model’s tokenizer.
 - Formatting the dataset into Tensor format for training.
 - Training:
-- Fine-tuned using Colab’s GPU.
+- Fine-tuned using  Google Colab’s GPU.
 - Used AdamW optimizer and a suitable learning rate.
 - Set training epochs and batch size for efficient training.
 - Logged training loss and monitored model improvements.
