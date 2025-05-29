@@ -85,7 +85,7 @@ pip install transformers datasets torch hugging face
 - nlptown/bert-base-multilingual-uncased-sentiment
 - cardiffnlp/twitter-roberta-base-sentiment
 - facebook/bart-large-cnn
-- Dataset: vidia/OpenCodeReasoning
+- Dataset: Nvidia/OpenCodeReasoning
 - Framework: Hugging Face Transformers
 
 
